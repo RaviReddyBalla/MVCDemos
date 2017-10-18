@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<ul>
+    @foreach (string team in ViewBag.teams)
+    {
+        <li>
+            @team
+        </li>
+    }
+</ul>
